@@ -2,6 +2,7 @@
   "name": "Mapa de Sala — Gerenciador de Turmas",
   "short_name": "Mapa de Sala",
   "description": "Gerencie turmas, alunos e a disposição de carteiras em sala de aula. Funciona offline, sem cadastro e sem internet.",
+  "id": "./index.html",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
