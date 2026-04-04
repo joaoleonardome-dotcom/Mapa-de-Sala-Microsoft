@@ -3607,8 +3607,8 @@ function imprimirMapa() {
     const num     = i + 1;
 
     if (aluno) {
-      const bg     = getBgTipo(aluno.tipo);
-      const emoji  = emojiMap[aluno.tipo] || '';
+      const bg     = bgNormal;
+      const emoji  = '';
       const partes = aluno.nome.trim().split(' ');
       const prim   = partes[0];
       const resto  = partes.slice(1).join(' ');
